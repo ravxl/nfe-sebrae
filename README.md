@@ -12,12 +12,12 @@
 
 1. Você precisa criar um novo diretório para a base de dados;
 2. Siga os seguintes passos:
-2.1. Abra um terminal
-2.2. sudo su -
-2.3. mkdir /System/Volumes/Data/database
-2.4. chmod -R 777 /System/Volumes/Data/database
-2.5. echo "database System/Volumes/Data/database" | tee -a /etc/synthetic.conf
-2.6. reboot
+  * Abra um terminal
+  * sudo su -
+  * mkdir /System/Volumes/Data/database
+  * chmod -R 777 /System/Volumes/Data/database
+  * echo "database System/Volumes/Data/database" | tee -a /etc/synthetic.conf
+  * reboot
 3. Quando o pc reiniciar, verifique a existência de uma nova pasta /database
 4. Abra o emissor de notas fiscais do sebrae
 
